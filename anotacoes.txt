@@ -1,0 +1,27 @@
+-Ambientes virtuais: Usados em grande projetos para não ter problema com versoes de linguagem
+e para fazer testes
+
+- include: Vai ter todo o cabeçalho, codigo em c, quais sao os modulos necessarios para o nosso projeto
+
+- lib: vai armazena todos pacotes/depedencias usadaos no ambiente virtual
+
+- iscripts: vai ter scripts e executados desse ambiente
+
+- pyvenvcfg: configuracoes do ambiete virtual
+
+- ativar ambiente: escrever o diretorio do arquivo activate.bat, ex: venv/Scripts/activate.bat
+
+- venv X virtualenv
+    *virutalenv é mais usado para opçoes mais avançadas e caso precise 
+    utilizar outras linguagem ou uma versão anterior ao python 3.3
+
+    *venv e recomendado pois ja vem inegrada com o python
+
+-requirements.txt: ""é altamente recomendado criar um arquivo requirements.txt para listar as dependências 
+do projeto. Isso facilita a replicação do ambiente em diferentes máquinas e ambientes
+
+-ligadno a venv: venv/Scripts/activate
+
+-ligando o servidor local: uvicorn main:'algo' --reload
+-desligar: crtl+c
+
